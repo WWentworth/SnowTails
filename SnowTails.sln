@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowTails.WebMVC", "SnowTails.WebMVC\SnowTails.WebMVC.csproj", "{E2B499FD-0AC0-4660-A27E-EC512DB75C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowTails.Data", "SnowTails.Data\SnowTails.Data.csproj", "{05D10165-EF75-44EF-9BF4-1F8C12387C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowTails.Services", "SnowTails.Services\SnowTails.Services.csproj", "{2EA6578E-ABE3-4749-985F-6526BA3B245E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowTails.Models", "SnowTails.Models\SnowTails.Models.csproj", "{19BC3CF1-9496-41C5-9333-581B02317CA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2B499FD-0AC0-4660-A27E-EC512DB75C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B499FD-0AC0-4660-A27E-EC512DB75C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B499FD-0AC0-4660-A27E-EC512DB75C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B499FD-0AC0-4660-A27E-EC512DB75C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D10165-EF75-44EF-9BF4-1F8C12387C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D10165-EF75-44EF-9BF4-1F8C12387C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D10165-EF75-44EF-9BF4-1F8C12387C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D10165-EF75-44EF-9BF4-1F8C12387C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA6578E-ABE3-4749-985F-6526BA3B245E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA6578E-ABE3-4749-985F-6526BA3B245E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA6578E-ABE3-4749-985F-6526BA3B245E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA6578E-ABE3-4749-985F-6526BA3B245E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BC3CF1-9496-41C5-9333-581B02317CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BC3CF1-9496-41C5-9333-581B02317CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BC3CF1-9496-41C5-9333-581B02317CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BC3CF1-9496-41C5-9333-581B02317CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E6FFA0E-B68C-40D6-BFCC-6A3906CEEB5F}
+	EndGlobalSection
+EndGlobal

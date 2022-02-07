@@ -1,0 +1,6 @@
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Models\bin\Debug\SnowTails.Models.dll
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Models\bin\Debug\SnowTails.Models.pdb
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.csproj.AssemblyReference.cache
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.csproj.CoreCompileInputs.cache
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.dll
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.pdb

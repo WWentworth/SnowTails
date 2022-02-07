@@ -1,0 +1,16 @@
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\obj\Debug\SnowTails.Data.csproj.AssemblyReference.cache
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\obj\Debug\SnowTails.Data.csproj.CoreCompileInputs.cache
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\bin\Debug\SnowTails.Data.dll.config
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\bin\Debug\SnowTails.Data.dll
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\bin\Debug\SnowTails.Data.pdb
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\bin\Debug\EntityFramework.dll
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\bin\Debug\EntityFramework.xml
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\obj\Debug\SnowTails.Data.csproj.CopyComplete
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\obj\Debug\SnowTails.Data.dll
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Data\obj\Debug\SnowTails.Data.pdb

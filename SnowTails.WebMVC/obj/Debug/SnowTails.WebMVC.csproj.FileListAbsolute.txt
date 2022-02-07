@@ -1,0 +1,2 @@
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.WebMVC\obj\Debug\SnowTails.WebMVC.csproj.AssemblyReference.cache
+E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.WebMVC\obj\Debug\SnowTails.WebMVC.csproj.CoreCompileInputs.cache
