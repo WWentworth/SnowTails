@@ -32,8 +32,8 @@ namespace SnowTails.Data
             return new ApplicationDbContext();
         }
         public DbSet<Adopter> Adopters { get; set; }
-        //public DbSet<Dog> Dogs { get; set; }
-//        public DbSet<Location> Location { get; set; }
+        public DbSet<Dog> Dogs { get; set; }
+        public DbSet<Location> Locations { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder

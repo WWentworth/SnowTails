@@ -1,0 +1,82 @@
+﻿@model SnowTails.Models.Dog.DogDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DogDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">  
+        <dt>
+            @Html.DisplayNameFor(model => model.DogId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DogId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DogName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DogName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sex)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sex)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fixed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fixed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LocationName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LocationName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdopterName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdopterName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Information)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Information)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DogId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

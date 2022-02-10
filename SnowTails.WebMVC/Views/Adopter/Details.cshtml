@@ -1,0 +1,66 @@
+﻿@model SnowTails.Models.Adopter.AdopterDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>AdopterDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AdopterId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdopterId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdopterName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdopterName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdopterAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdopterAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdopterPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdopterPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OtherPets)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OtherPets)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FencedYard)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FencedYard)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
