@@ -46,6 +46,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -54,12 +55,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adopter.cs" />
+    <Compile Include="Dog.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="Migrations\202202092331475_initial.cs" />
+    <Compile Include="Migrations\202202092331475_initial.Designer.cs">
+      <DependentUpon>202202092331475_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202092336307_AdopterIdNull.cs" />
+    <Compile Include="Migrations\202202092336307_AdopterIdNull.Designer.cs">
+      <DependentUpon>202202092336307_AdopterIdNull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202202092331475_initial.resx">
+      <DependentUpon>202202092331475_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202092336307_AdopterIdNull.resx">
+      <DependentUpon>202202092336307_AdopterIdNull.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

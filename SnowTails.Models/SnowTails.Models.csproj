@@ -32,7 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adopter\AdopterCreate.cs" />
+    <Compile Include="Adopter\AdopterDetail.cs" />
+    <Compile Include="Adopter\AdopterEdit.cs" />
+    <Compile Include="Adopter\AdopterListItem.cs" />
+    <Compile Include="Dog\DogCreate.cs" />
+    <Compile Include="Dog\DogDetail.cs" />
+    <Compile Include="Dog\DogEdit.cs" />
+    <Compile Include="Dog\DogListItem.cs" />
+    <Compile Include="Location\LocationDetail.cs" />
+    <Compile Include="Location\LocationCreate.cs" />
+    <Compile Include="Location\LocationEdit.cs" />
+    <Compile Include="Location\LocationListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
