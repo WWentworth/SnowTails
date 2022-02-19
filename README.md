@@ -10,12 +10,6 @@ This application will allow the Snow Tails team member add locations and dogs to
 - Create, edit, and Delete A Location
 - Create, edit, and Delete Adopter Profiles
 
-
-## Authors
-
-- [@William Wentworth](https://www.github.com/WWentworth)
-
-
 ## Feedback
 
 If you have any feedback, please reach out to us at WWentworth@gmail.com
@@ -28,4 +22,8 @@ If you have any feedback, please reach out to us at WWentworth@gmail.com
 - Chance adopter from using its own table to putting all the information in during creation of user.
 - Image upload and storing images in the database rather than use URLS.
 - Add more integrations to link other pet networking(petfinder API )
+
+## Authors
+
+- [@William Wentworth](https://www.github.com/WWentworth)
 
