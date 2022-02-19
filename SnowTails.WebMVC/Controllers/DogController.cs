@@ -10,7 +10,7 @@ using System.Web.Mvc;
 namespace SnowTails.WebMVC.Controllers
 {
     [Authorize]
-    public class DogController : Controller
+    public class DogController : ApplicationBaseController
     {
         // GET: Dog
         public ActionResult Index()
@@ -63,6 +63,7 @@ namespace SnowTails.WebMVC.Controllers
                     DogId = detail.DogId,
                     DogName = detail.DogName,
                     Sex = detail.Sex,
+                    Age = detail.Age,
                     Fixed = detail.Fixed,
                     Information = detail.Information,
                     LocationName = detail.LocationName
@@ -106,5 +107,29 @@ namespace SnowTails.WebMVC.Controllers
             TempData["SaveResult"] = "Dog successfully deleted";
             return RedirectToAction("Index");
         }
+        public ActionResult AdoptionEdit(int id)
+        {
+            AdoptionUpdate(id);
+            return RedirectToAction("Details", new { id = id });
+
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        //[Route("api/Dog/AdoptDog")]
+        public void AdoptionUpdate(int id)
+        {
+            //var id = RouteData.Values["id"] + Request.Url.Query;
+            //var dogId = Convert.ToInt32(id);
+            var service = CreateDogService();
+
+            if (service.AdoptDog(id))
+            {
+                TempData["SaveResult"] = "You are the pending adopter!";
+
+            }
+            ModelState.AddModelError("", "The Adopter could not be updated.");
+            //return RedirectToAction("Details", id);
+        }
+
     }
 }

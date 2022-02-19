@@ -9,7 +9,7 @@ using System.Web.Mvc;
 
 namespace SnowTails.WebMVC.Controllers
 {
-    public class LocationController : Controller
+    public class LocationController : ApplicationBaseController
     {
         // GET: Location
         public ActionResult Index()

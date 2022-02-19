@@ -1,0 +1,12 @@
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Release\SnowTails.Models.dll.config
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Release\SnowTails.Models.dll
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Release\SnowTails.Models.pdb
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Release\EntityFramework.dll
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Release\EntityFramework.SqlServer.dll
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Release\EntityFramework.xml
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Release\EntityFramework.SqlServer.xml
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\obj\Release\SnowTails.Models.csproj.AssemblyReference.cache
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\obj\Release\SnowTails.Models.csproj.CoreCompileInputs.cache
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\obj\Release\SnowTails.Models.csproj.CopyComplete
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\obj\Release\SnowTails.Models.dll
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\obj\Release\SnowTails.Models.pdb

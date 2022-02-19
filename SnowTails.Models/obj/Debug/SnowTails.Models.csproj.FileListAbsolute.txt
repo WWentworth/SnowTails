@@ -4,3 +4,15 @@ E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Models\obj\Debug\SnowTails.
 E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.dll
 E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.pdb
 E:\ElevenFiftyProjects\SnowTails\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.csproj.AssemblyReference.cache
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Debug\SnowTails.Models.dll
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Debug\SnowTails.Models.pdb
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.csproj.CoreCompileInputs.cache
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.dll
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.pdb
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.csproj.AssemblyReference.cache
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Debug\SnowTails.Models.dll.config
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Debug\EntityFramework.dll
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Debug\EntityFramework.xml
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\ElevenFiftyRedBadge\SnowTails\SnowTails.Models\obj\Debug\SnowTails.Models.csproj.CopyComplete

@@ -10,15 +10,17 @@ namespace SnowTails.Models.Dog
     public class DogCreate
     {
         [Required]
+        [Display(Name = "Name")]
         public string DogName { get; set; }
         [Required]
-        public bool Sex { get; set; }
+        public string Sex { get; set; }
         [Required]
         public string Age { get; set; }
         [Required]
-        public bool Fixed { get; set; }
+        public string Fixed { get; set; }
         [Required]
         public string Information { get; set; }
+        [Display(Name = "Location")]
         public int LocationId { get; set; }
     }
 }

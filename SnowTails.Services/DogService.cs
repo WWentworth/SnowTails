@@ -64,7 +64,24 @@ namespace SnowTails.Services
                     ctx
                     .Dogs
                     .Single(e => e.DogId == id && e.OwnerId == _userId);
+                if (entity.Adopter == null)
+                {
+                    return
+
+                        new DogDetail
+                        {
+                            DogId = entity.DogId,
+                            DogName = entity.DogName,
+                            Sex = entity.Sex,
+                            Age = entity.Age,
+                            Fixed = entity.Fixed,
+                            Information = entity.Information,
+                            LocationName = entity.Location.LocationName,
+
+                        };
+                }
                 return
+
                     new DogDetail
                     {
                         DogId = entity.DogId,
@@ -72,9 +89,10 @@ namespace SnowTails.Services
                         Sex = entity.Sex,
                         Age = entity.Age,
                         Fixed = entity.Fixed,
+                        AdopterName = entity.Adopter.AdopterName,
                         Information = entity.Information,
                         LocationName = entity.Location.LocationName,
-                        AdopterName = entity.Adopter.AdopterName
+
                     };
             }
         }
@@ -92,8 +110,8 @@ namespace SnowTails.Services
                 entity.Age = model.Age;
                 entity.Fixed = model.Fixed;
                 entity.Information = model.Information;
-                entity.LocationName = model.LocationName;
-                entity.AdopterId = model.AdopterName;
+                entity.LocationId = model.LocationId;
+                entity.AdopterId = model.AdopterId;
                 return ctx.SaveChanges() == 1;
             }
         }
@@ -107,6 +125,25 @@ namespace SnowTails.Services
                     .Single(e => e.DogId == DogId && e.OwnerId == _userId);
                 ctx.Dogs.Remove(entity);
                 return ctx.SaveChanges() == 1;
+            }
+        }
+        public bool AdoptDog(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var dog =
+                    ctx
+                        .Dogs
+                        .Single(e => e.DogId == id);
+
+                var adopter =
+                    ctx
+                        .Adopters
+                        .Single(e => e.OwnerId == _userId);
+
+                dog.AdopterId = adopter.AdopterId;
+
+                return ctx.SaveChanges() >= 1;
             }
         }
     }

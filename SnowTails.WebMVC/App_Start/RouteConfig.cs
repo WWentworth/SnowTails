@@ -12,6 +12,8 @@ namespace SnowTails.WebMVC
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            //routes.MapMvcAttributeRoutes();
+            //routes.MapRoute(name:"Dog", url:"{controller}/AdoptDog", defaults:new {controller = "Dog", action = "AdoptionEdit" });
 
             routes.MapRoute(
                 name: "Default",

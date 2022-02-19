@@ -10,7 +10,7 @@ using System.Web.Mvc;
 namespace SnowTails.WebMVC.Controllers
 {
     [Authorize]
-    public class AdopterController : Controller
+    public class AdopterController : ApplicationBaseController
     {
         // GET: Adopter
         public ActionResult Index()
